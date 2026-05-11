@@ -3,7 +3,7 @@ async function createTaskAPI(values, handleResponse, handleError, setLoading){
     try {
         const baseUrl = import.meta.env.VITE_APP_API_BASE_URL;
 
-        const endPoint = "/task";
+        const endPoint = "/api/v1/task";
 
         const url = `${baseUrl}${endPoint}`;
 
