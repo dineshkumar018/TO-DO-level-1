@@ -5,7 +5,7 @@ import TitleImg from '../assets/title-placeholder-img.svg'
 import Memo from '../assets/memo.svg'
 import clsx from 'clsx'
 import Calender from '../assets/calendar.svg'
-import createTaskAPI from './api/createTask'
+import createTaskAPI from './api/createTask.js'
 
 
 const CreateTask = ({showTaskListScreen, fetchAllTasks}) => {
